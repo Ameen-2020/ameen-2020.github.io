@@ -1,0 +1,48 @@
+.doomsday:hover{
+    animation-name: rotating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes rotating {
+    50% {
+    transform: skew(50deg);
+  }
+}
+
+
+.doomsday:hover{
+    animation-name: bounce-in-top;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce-in-top{0%{transform:translateY(-500px);animation-timing-function:ease-in;opacity:0}38%{transform:translateY(0);animation-timing-function:ease-out;opacity:1}55%{transform:translateY(-65px);animation-timing-function:ease-in}72%{transform:translateY(0);animation-timing-function:ease-out}81%{transform:translateY(-28px);animation-timing-function:ease-in}90%{transform:translateY(0);animation-timing-function:ease-out}95%{transform:translateY(-8px);animation-timing-function:ease-in}100%{transform:translateY(0);animation-timing-function:ease-out}}
+
+
+
+ .doomsday{
+    animation-name: slide-out-fwd-center;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes slide-out-fwd-center{0%{transform:translateZ(1);opacity:1}100%{transform:translateZ(600px);opacity:0}}
+
+
+
+
+
+doomsday {
+    animation-name: vibrate-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes vibrate-1{0%{transform:translate(0)}20%{transform:translate(-100px,100px)}40%{transform:translate(-2px,-2px)}60%{transform:translate(100px,100px)}80%{transform:translate(2px,-2px)}100%{transform:translate(0)}}
+
+
