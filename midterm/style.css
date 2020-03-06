@@ -1,0 +1,421 @@
+/*****the font size and style in the site******/
+
+body {padding:0;margin:0;}
+h1 {
+    font-family: raleway;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2rem;
+    font-style: italic;
+    margin-top:0;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#26a683;
+    margin-top:0;
+}
+
+/*******width of the images********/
+img {
+    max-width:100%;
+}
+.ar {
+    text-align:right;
+}
+
+/******flex sets the flexible length on flexible items******/
+.flex-list {
+    display:flex;
+    list-style-type:none;
+    align-items: center;
+    padding:0;
+    margin:0;
+}
+
+/********Button is i put it in different placess in the site to be able to go to another pages.***********/
+
+.button {
+    background-color:#26a683;
+    font-size:1.5rem;
+    color:#fff;
+    display:inline-block;
+    padding:10px 40px;
+    text-decoration: none;
+    font-weight:bold;
+    border-radius:40px;
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.31);
+    margin:0 1rem;
+    display: inline-block;
+}
+
+/******** I used the group block-elements to format them in CSS ***********/
+.banner ,.section, .section1, .section2, .section3 {
+    display:flex;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+/********** navigation is important for any web site to see the content and navigat it************/
+.navigation {
+    background-color:#3c3b39;
+    display:flex;
+    justify-content: space-between;
+    padding:5px 15px;
+    margin:0;
+}
+
+/*******to show or hide elements in my website**********/
+.mobile-toggle {
+    display: none;
+}
+ /********i used it to repositon the images***********/
+.rectangle {
+    max-height:250px;
+    overflow:hidden;
+}
+/********** to navigate the website************/
+.navigation ul li {
+    padding:10px;
+}
+
+/********** to navigate the website************/
+.navigation a {
+    color:#fff;
+}
+
+/******I ussed it to divide my website laypout *******/
+.left, .right {
+ padding:80px 50px;
+
+}
+/******I ussed it to divide my website laypout *******/
+.banner .left {
+    width: 55%;
+    
+}
+/******I ussed it to divide my website laypout *******/
+.banner .right {
+    width:55%;
+}
+/******I ussed it to divide my website laypout *******/
+.banner .left ul {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+/******I ussed it to divide my website laypout *******/
+.banner .left li {
+    text-align: center;
+    padding:10px;
+
+}
+
+/******I from fun awsome website styl the website *******/
+.banner .left .fas {
+    display:block;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:1.25rem;
+    
+}
+/******i used span to style the divs *****/
+.banner .left span {
+    color:#26a683;
+}
+
+/******i used the button to creat a bouttn to scroll up and down in each page********/
+.scroll-bottom {
+    text-align: center;
+    padding:10px;
+}
+
+/******i used the button to creat a bouttn to scroll up and down in each page********/
+.scroll-top, .scroll-bottom {
+    font-size:.75rem;
+}
+
+.scroll-bottom a,.scroll-top a {
+    text-decoration: none;
+}
+.scroll-bottom .fas, .scroll-top .fas {
+    color:#26a683;
+    font-size:2rem;
+    display:block;
+    
+}
+/******to scroll up the page in one click********/
+ .scroll-top {
+    position: absolute;
+    right:0;
+    top:0 ;
+    padding:1rem;
+}
+
+/*******Contact us table start ********/
+
+*{
+    margin: 10px 0px ;
+    padding:0 ;
+    font-family: 'Ubuntu', sans-serif, Raleway;
+  }
+  /*******the dimintions of the table********/
+  .contact-us{
+    width: 450px;
+    background: #26a683;
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .title h1{
+    color: #535274;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+.banner
+
+  .form,
+  .form-items{
+    width: 100%;
+  }
+  
+  .form-items .input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #ebeef1;
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+  }
+  
+  .form-items .input.message{
+    height: 125px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 15px 15px;
+    resize: none;
+  }
+  
+  .btn{
+    background: #383631;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .btn .fas{
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  
+  .form-items{
+    position: relative;
+  }
+  
+  .form-items .fas{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #9a99aa;
+  }
+
+/*******Contact us table - End ********/
+
+
+.banner .right img{
+    width: 100%;
+}
+.section-banner {
+    text-align: center;
+    padding:1rem 2rem;
+    color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(3, 94, 3, 0.75); 
+  background-blend-mode: multiply;
+}
+
+.section-banner.about {
+    background-image: url(images/about.jpg);
+}
+.section-banner.services {
+    background-image: url(images/services.jpg);
+}
+
+.subscribe-bar {
+    background-color: #3c3b39;
+    color:#fff;
+    text-align: center;
+    padding:1rem;
+    font-size:1.5rem;
+}
+
+.section-alt, .section1 {
+    background-color:#ddd;
+}
+
+.section .left, .section1 .left {
+    width:50%;
+}
+.section .right, .section1 .right {
+    width:50%
+}
+
+.section1.three-column .left {
+    width:33.333%;
+}
+.section1.three-column .middle {
+    width:33.333%;
+}
+.section1.three-column .right {
+    width:33.333%
+}
+
+.section2 {
+    background-color:#3c3b39;
+    color:#fff;
+    align-items: center;
+}
+
+.section2 .left {
+    display:flex;
+    width:35%;
+    justify-content: space-around;
+}
+
+.section2 .right {
+    width:65%;
+}
+
+.section2 .circle {
+    width:100px;
+    height:100px;
+    border-radius:80%;
+    overflow:hidden;
+    border:3px solid #fff;
+}
+
+.section2 .title {
+    padding:2rem;
+    text-align: center;
+}
+
+
+.section3 .left,.section3 .right {
+    width:50%;
+}
+
+
+.sponsors {
+    padding-bottom:60px;
+}
+.sponsors h1  {
+    max-width: 300px;
+    margin:0 auto;
+    padding:40px 0; 
+    text-align: center;
+}
+
+.sponsors .logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sponsors .logo {
+    width:25%;
+    padding:0 20px;  
+    text-align: center; 
+}
+
+.sponsors .logos img {
+    max-width:120px;
+    max-height:100%;
+}
+/***********Footer**********/
+.footer {
+    background-color:#3c3b39 ;
+    color:#fff;
+    text-align: center;
+    position: relative;
+    padding:1rem; 
+}
+.footer a{
+    color:#fff;
+}
+
+
+
+/*******Tablet*******/
+@media (min-width:768px) and (max-width:991px) {
+
+
+}
+
+/***Mobile***/
+@media (max-width:767px)  {
+    .banner ,.section, .section1, .section2, .section3 {
+        display:block;
+        margin:0 auto;
+        max-width:450px;
+    }
+
+/******** Menu ********/
+.navigation {
+    position: relative;
+}
+.navigation ul {
+    display:block;
+    position: absolute ;
+    right:0;
+    top:100%;
+
+    background-color: #3c3b39;
+    width:15rem; 
+}
+.mobile-toggle {
+    display: block;
+    position: absolute;
+    right:15px;
+    color:#fff;
+    top:15px;
+    cursor:pointer;
+}
+
+/*** end menu  ****/
+
+
+
+/*******footer pics ********/
+    .left, .right, .middle {
+        margin:0 auto;
+        max-width:480px;
+        width:auto!important;
+        padding:0 15px; 
+    }
+
+    .sponsors .logos {
+        display: block;
+        text-align: center;
+    }
+
+    .sponsors .logo {
+        width:auto;
+        max-width: 240px;
+        padding:20px;  
+        text-align:center;
+         margin:0 auto;
+    }
+
+}
