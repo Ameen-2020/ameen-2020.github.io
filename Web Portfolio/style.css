@@ -1,0 +1,407 @@
+/*****the font size and style in the site******/
+
+body {padding:0;
+    margin:0;}
+h1 {
+    font-family: The stilts, Avenir, raleway;
+}
+h2 {
+    font-family: The stilts, Avenir, Arial, Helvetica, sans-serif;
+    font-size:2rem;
+    font-style: The stilts, Avenir, italic;
+    margin-top:0;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight:normal;
+    font-family: The stilts, Avenir, Arial, Helvetica, sans-serif;
+    color:#830C0C;
+    margin-top:0;
+}
+
+
+
+/*******width of the images********/
+
+img {
+    max-width:100%;
+}
+.ar {
+    text-align:right;
+}
+
+/******flex sets the flexible length on flexible items******/
+.flex-list {
+    display:flex;
+    list-style-type:none;
+    align-items: center;
+    padding:0;
+    margin:0;
+}
+
+
+
+.button {
+    background-color:#FE9D36;
+    font-size:2rem;
+    color:#830C0C;
+    display:inline-block;
+    padding:10px 40px;
+    text-decoration: none;
+    font-weight:bold;
+    border-radius:40px;
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.31);
+    margin:0 1rem;
+    display: inline-block;
+}
+
+
+
+
+/******** I used the group block-elements to format them in CSS ***********/
+.banner ,.section, .section1, .section2, .section3 .section4{
+    display:flex;
+    justify-content: space-between;
+    font-family: The stilts, Avenir, 'Times New Roman', Times, serif; 
+}
+/********** navigation is important for any web site to see the content and navigat it************/
+.navigation 
+
+{
+    background: #FE9D36;
+    display:flex;
+    justify-content: space-between;
+    padding:20px 5px;
+    margin:5;
+    border-style: double;
+}
+
+/*******to show or hide elements in my website**********/
+.mobile-toggle {
+    display: none;
+}
+ /********i used it to repositon the images***********/
+.rectangle {
+    max-height:250px;
+    overflow:hidden;
+}
+/********** to navigate the website************/
+.navigation ul li {
+    padding:10px;
+}
+
+/********** to navigate the website************/
+.navigation a {
+    color:#830C0C;
+}
+
+/******I ussed it to divide my website laypout *******/
+.left, .right {
+ padding:80px 50px;
+
+}
+/******I ussed it to divide my website laypout *******/
+.banner .left {
+    width: 55%;
+    
+}
+/******I ussed it to divide my website laypout *******/
+.banner .right {
+    width:55%;
+}
+/******I ussed it to divide my website laypout *******/
+.banner .left ul {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+/******I ussed it to divide my website laypout *******/
+.banner .left li {
+    text-align: center;
+    padding:10px;
+
+}
+
+/******I from fun awsome website styl the website *******/
+.banner .left .fas {
+    display:block;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:1.25rem;
+    
+}
+
+
+/******i used the button to creat a bouttn to scroll up and down in each page********/
+.scroll-bottom {
+    text-align: center;
+    padding:10px;
+}
+
+/******i used the button to creat a bouttn to scroll up and down in each page********/
+.scroll-top, .scroll-bottom {
+    font-size:.75rem;
+}
+
+.scroll-bottom a,.scroll-top a {
+    text-decoration: none;
+}
+.scroll-bottom .fas, .scroll-top .fas {
+    color:#830C0C;
+    font-size:2rem;
+    display:block;
+    
+}
+/******to scroll up the page in one click********/
+ .scroll-top {
+    position: absolute;
+    right:0;
+    top:0 ;
+    padding:1rem;
+}
+
+/*******Contact us table start ********/
+
+*{
+    margin: 5px 10px ;
+    padding:40px, 40px;
+    font-family: 'Ubuntu', sans-serif, Raleway;
+  }
+  /*******the dimintions of the table********/
+  .contact-us{
+    width: 450px;
+    background: #FE9D36;
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  
+  
+.banner
+
+  .form,
+  .form-items{
+    width: 100%;
+  }
+  
+  .form-items .input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #f1ebeb;
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+  }
+  
+  .form-items .input.message{
+    height: 125px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 15px 15px;
+    resize: none;
+  }
+  
+  .btn{
+    background: #313837;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .btn .fas{
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  
+  .form-items{
+    position: relative;
+  }
+  
+  .form-items .fas{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #aa9c99;
+  }
+
+/*******Contact us table - End ********/
+
+
+.banner .right img{
+    width: 100%;
+}
+.section-banner {
+    text-align: center;
+    padding:1rem 2rem;
+    color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(3, 94, 3, 0.75); 
+  background-blend-mode: multiply;
+}
+
+.section-banner.about {
+    background-image: url(images/about.jpg);
+}
+.section-banner.services {
+    background-image: url(images/services.jpg);
+}
+
+
+
+.section-alt, .section1 {
+    background-color:#ddd;
+}
+
+.section .left, .section1 .left {
+    width:50%;
+}
+.section .right, .section1 .right {
+    width:30%
+}
+
+.section1.three-column .left {
+    width:33.333%;
+}
+.section1.three-column .middle {
+    width:33.333%;
+}
+.section1.three-column .right {
+    width:33.333%
+}
+
+
+.section2 .left,.section2 .right {
+    width:50%;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #FE9D36;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #830C0C;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+
+
+
+/***********Footer**********/
+.footer {
+    background-image:#FE9D36 ;
+    color:#830C0C;
+    text-align: center;
+    position: relative;
+    padding:0rem; 
+}
+
+.topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+  
+.footer a{
+    color:#830C0Cff;
+    
+}
+
+
+
+/*******Tablet*******/
+@media (min-width:768px) and (max-width:991px) {
+
+
+}
+
+/***Mobile***/
+@media (max-width:767px)  {
+    .banner ,.section, .section1, .section2, .section3 {
+        display:block;
+        margin:0 auto;
+        max-width:450px;
+    }
+
+/******** Menu ********/
+.navigation {
+    position: relative;
+}
+.navigation ul {
+    display:block;
+    position: absolute ;
+    right:0;
+    top:100%;
+
+    background-color: #f19304;
+    width:15rem; 
+}
+.mobile-toggle {
+    display: block;
+    position: absolute;
+    right:15px;
+    color:#fff;
+    top:15px;
+    cursor:pointer;
+}
+
+/*** end menu  ****/
+
+
+
+/*******footer pics ********/
+    .left, .right, .middle {
+        margin:0 auto;
+        max-width:480px;
+        width:auto!important;
+        padding:15px; 
+    }
+
+    .sponsors .logos {
+        display: block;
+        text-align: center;
+    }
+
+    .sponsors .logo {
+        width:auto;
+        max-width: 240px;
+        padding:20px;  
+        text-align:center;
+         margin:0 auto;
+    }
+
+}
